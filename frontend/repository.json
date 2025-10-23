@@ -1,0 +1,35 @@
+{
+  "name": "Repository",
+  "type": "object",
+  "properties": {
+    "repo_url": {
+      "type": "string",
+      "description": "GitHub repository URL"
+    },
+    "repo_name": {
+      "type": "string",
+      "description": "Name of the repository"
+    },
+    "notebooks": {
+      "type": "array",
+      "description": "Extracted Jupyter notebooks",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "path": {
+            "type": "string"
+          },
+          "content": {
+            "type": "object"
+          }
+        }
+      }
+    }
+  },
+  "required": [
+    "repo_url"
+  ]
+}
