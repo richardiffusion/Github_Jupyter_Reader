@@ -16,6 +16,7 @@ More pictures at the bottom.
 - **👀 Rich Notebook Viewer** - Clean, responsive notebook viewer with syntax highlighting and collapsible cells
 - **💾 One-Click Downloads** - Download original `.ipynb` files for offline use
 - **💫 Real-time Stats** - Track your repository and notebook counts in real-time
+- **👀👀Run Code** - Run code as viewing .ipynb in library(without downloading)
 
 ## 🚀 Quick Start
 
@@ -109,6 +110,9 @@ const notebooks = [];
 
 ### Expand All Cells
 <img width="1744" height="1344" alt="image" src="https://github.com/user-attachments/assets/4db4e041-5702-4dc5-9335-710ad7fa5f21" />
+
+### Run Code
+<img width="1212" height="1222" alt="image" src="https://github.com/user-attachments/assets/33a74d9d-8093-411f-a459-b7c8010f4095" />
 
 ### Quick Stats
 <img width="394" height="198" alt="image" src="https://github.com/user-attachments/assets/dbee43c5-1ee3-4751-92c9-9892d4990ab8" />
